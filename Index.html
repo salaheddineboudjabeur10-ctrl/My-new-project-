@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تجربة جميع أكواد HTML</title>
+</head>
+<body>
+
+    <!-- عناوين -->
+    <h1>عنوان H1</h1>
+    <h2>عنوان H2</h2>
+    <h3>عنوان H3</h3>
+
+    <!-- فقرة ونصوص -->
+    <p>هذه فقرة <strong>بها نص غامق</strong> و <em>نص مائل</em>.</p>
+    <span>هذا نص داخل span</span>
+    <br>
+    <hr>
+
+    <!-- رابط وصورة -->
+    <a href="https://www.google.com" target="_blank">اذهب إلى جوجل</a>
+    <br><br>
+    <img src="https://via.placeholder.com/150" alt="صورة تجريبية">
+
+    <!-- قائمة -->
+    <h3>قائمة غير مرتبة</h3>
+    <ul>
+        <li>عنصر 1</li>
+        <li>عنصر 2</li>
+        <li>عنصر 3</li>
+    </ul>
+
+    <h3>قائمة مرتبة</h3>
+    <ol>
+        <li>الأول</li>
+        <li>الثاني</li>
+        <li>الثالث</li>
+    </ol>
+
+    <!-- جدول -->
+    <h3>مثال جدول</h3>
+    <table border="1">
+        <tr>
+            <th>الاسم</th>
+            <th>العمر</th>
+        </tr>
+        <tr>
+            <td>سليم</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>ليلى</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <!-- نموذج (Form) -->
+    <h3>نموذج إدخال بيانات</h3>
+    <form>
+        الاسم: <input type="text" name="name"><br><br>
+        كلمة المرور: <input type="password" name="pass"><br><br>
+        <input type="checkbox"> أوافق على الشروط<br><br>
+        الجنس:
+        <input type="radio" name="gender" value="ذكر"> ذكر
+        <input type="radio" name="gender" value="أنثى"> أنثى <br><br>
+        <textarea rows="4" cols="30">أدخل ملاحظاتك هنا...</textarea><br><br>
+        <select>
+            <option>الجزائر</option>
+            <option>تونس</option>
+            <option>المغرب</option>
+        </select><br><br>
+        <button type="submit">إرسال</button>
+    </form>
+
+    <!-- وسائط -->
+    <h3>صوت وفيديو</h3>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        متصفحك لا يدعم الصوت
+    </audio>
+    <br><br>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        متصفحك لا يدعم الفيديو
+    </video>
+
+    <!-- وسوم هيكلية -->
+    <header>
+        <h2>رأس الصفحة</h2>
+    </header>
+
+    <nav>
+        <a href="#">الرئيسية</a> |
+        <a href="#">عن الموقع</a> |
+        <a href="#">تواصل معنا</a>
+    </nav>
+
+    <main>
+        <section>
+            <h3>قسم داخل المحتوى</h3>
+            <article>
+                <h4>مقالة</h4>
+                <p>هذا مثال على مقالة داخل قسم.</p>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <p>هذا محتوى جانبي (aside)</p>
+    </aside>
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
